@@ -1,0 +1,24 @@
+#head{
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+#userstory{
+  margin-left: 100px;
+  width: 900px;
+}
+#story{
+  font-size: 1.3em;
+}
+#list{
+  font-size: 1.1em;
+  color: green;
+}
+.example{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.usage{
+  color: #c7254e;
+  margin-left: 30px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <title> URL Shortener Microservice </title>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <h2 id="head"> API : URL Shortener Microservice </h2>
+
+  </head>
+  <body>
+    <div id="container">
+      <div id="userstory">
+        <p id="story"> User stories: </p>
+        <ol id="list">
+          <li> I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+          <br><li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+          <br><li>When I visit that shortened URL, it will redirect me to my original link.</li>
+        </ol>
+        <p class="example">Example creation usage:</p>
+        <p class="usage">https://localhost:8080/new/https://www.google.com</p>
+        <p class="usage">https://localhost:8080/new/http://foo.com:80</p>
+        <p class="example">Example creation output:</p>
+        <p class="usage">{ "original_url":"http://foo.com:80", "short_url":"https://localhost:8080/8170" }</p>
+        <p class="example">Usage:</p>
+        <p class="usage">https://localhost:8080/2871</p>
+        <p class="example">Will redirect to:</p>
+        <p class="usage">https://www.google.com</p>
+      </div>
+    </div>
+  </body>
+</html>
